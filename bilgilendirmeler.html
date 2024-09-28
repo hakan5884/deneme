@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jollin</title>
+
+    <!--Essential css files-->
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/swiper.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--favicon-->
+    <link rel="icon" href="assets/images/logo/Beyazbüyük150.png">
+
+</head>
+
+<body>
+    <!-- Start Top To Scroll Button -->
+    <div id="progress">
+        <span id="progress-value"><i class="fa-solid fa-arrow-up"></i></span>
+    </div>
+    <header class="header-area-1 header-area-2 header-area-3 header-sticky">
+        <span class="extra-box-border"></span>
+        <div class="header-wrapper">
+            <div class="menu-bar">
+                <a href="#" class="menu-bar-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="49" height="15" viewBox="0 0 49 15" fill="#CCDEFF">
+                        <line x1="0.249023" y1="1.41577" x2="48.6221" y2="1.41577" stroke="#CCDEFF" stroke-width="2">
+                        </line>
+                        <line x1="0.249023" y1="13.9224" x2="48.6221" y2="13.9224" stroke="#CCDEFF" stroke-width="2">
+                        </line>
+                    </svg>
+                </a>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="logo">
+                <a href="index.html" >
+                    <img  src="assets/images/logo/Beyazbüyük150.png" alt="VRE">
+                </a>
+            </div>
+            <div class="main-menu">
+                <ul>
+                    <li><a href="index.html" class="font-size-1-18 transition-1">Anasayfa
+                           
+                        </a>
+                       
+                    </li>
+                    <li><a href="hakkımızda.html" class="font-size-1-18 transition-1">Hakkımızda 
+                        </a>
+                    </li>
+                    <li><a href="nasilkullanilir.html" class="font-size-1-18 transition-1">Nasıl Kullanılır
+                          
+                        </a>
+                      
+                    </li>
+                    <li><a href="sıksorulansorular.html" class="font-size-1-18 transition-1">Sık Sorulan Sorular
+                        </a>
+                       
+                    </li>
+                    <li><a href="bilgilendirmeler.html" class="font-size-1-18 transition-1">Bilgilendirmeler
+                            <span>
+                                <svg width="8" height="14" viewBox="0 0 8 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_1_9793)">
+                                        <path
+                                            d="M3.52937 12.868C3.78979 13.2098 4.21271 13.2098 4.47312 12.868L7.80646 8.49298C8.06687 8.15118 8.06687 7.59611 7.80646 7.25431C7.54604 6.91251 7.12312 6.91251 6.86271 7.25431L4.66687 10.1391L4.66687 1.75001C4.66687 1.26603 4.36896 0.875012 4.00021 0.875012C3.63146 0.875012 3.33354 1.26603 3.33354 1.75001L3.33354 10.1391L1.13771 7.25704C0.87729 6.91525 0.454373 6.91525 0.193956 7.25704C-0.0664601 7.59884 -0.0664602 8.15392 0.193956 8.49571L3.52729 12.8707L3.52937 12.868Z"
+                                            fill="#CCDEFF" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_1_97935">
+                                            <rect width="8" height="14" fill="white"
+                                                transform="translate(8 14) rotate(-180)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                        </a>
+                        <ul class="submenu">
+                            <li><a href="kullanicilaricin.html" class="font-size-1-18">Kullanıcılar için</a></li>
+                            <li><a href="kuluplericin.html" class="font-size-1-18">Kulüpler için</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html" class="font-size-1-18 transition-1">İletişim
+                        </a></li>
+                </ul>
+            </div>
+            <!-- <div class="get-in-touch">
+                <a href="#" class="header-search-bar">
+                    <span>
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M24.375 12.1875C24.375 14.877 23.502 17.3613 22.0312 19.377L29.4492 26.8008C30.1816 27.5332 30.1816 28.7227 29.4492 29.4551C28.7168 30.1875 27.5273 30.1875 26.7949 29.4551L19.377 22.0312C17.3613 23.5078 14.877 24.375 12.1875 24.375C5.45508 24.375 0 18.9199 0 12.1875C0 5.45508 5.45508 0 12.1875 0C18.9199 0 24.375 5.45508 24.375 12.1875ZM12.1875 20.625C13.2955 20.625 14.3927 20.4068 15.4164 19.9827C16.4401 19.5587 17.3702 18.9372 18.1537 18.1537C18.9372 17.3702 19.5587 16.4401 19.9827 15.4164C20.4068 14.3927 20.625 13.2955 20.625 12.1875C20.625 11.0795 20.4068 9.98229 19.9827 8.95861C19.5587 7.93492 18.9372 7.00478 18.1537 6.22129C17.3702 5.43779 16.4401 4.81629 15.4164 4.39227C14.3927 3.96824 13.2955 3.75 12.1875 3.75C11.0795 3.75 9.98229 3.96824 8.95861 4.39227C7.93492 4.81629 7.00478 5.43779 6.22129 6.22129C5.43779 7.00478 4.81629 7.93492 4.39227 8.95861C3.96824 9.98229 3.75 11.0795 3.75 12.1875C3.75 13.2955 3.96824 14.3927 4.39227 15.4164C4.81629 16.4401 5.43779 17.3702 6.22129 18.1537C7.00478 18.9372 7.93492 19.5587 8.95861 19.9827C9.98229 20.4068 11.0795 20.625 12.1875 20.625Z"
+                                fill="#CCDEFF" />
+                        </svg>
+                    </span>
+                </a>
+                <a href="contact.html" class="font-size-1-20 btn-1 btn-1-1">Get in Touch</a>
+            </div> -->
+        </div>
+    </header>
+    <!-- End Header Area3 -->
+
+    <!-- Start Search Bar Popup Home 2 -->
+    <div class="search-bar home-3">
+        <div class="search">
+            <form action="#">
+                <input type="text" placeholder="Search Here ....">
+                <input type="submit" value="Search" class="btn-primary-style btn-2 hero-info-btn btn-3 btn-4">
+            </form>
+        </div>
+        <a href="javascript:void(0)" class="search-popup-close"><i class="fa-solid fa-xmark"></i></a>
+    </div>
+    <!-- End Search Bar Popup Home 2 -->
+
+    <!-- Start Mobile Menu Home 3 -->
+    <div class="nft-mobile-menu-2 nft-mobile-menu nft-mobile-menu">
+        <button class="close-menu float-end"><i class="fa-solid fa-xmark"></i></button>
+        <a class='mobile-menu-logo' href="index.html"><img src="assets/images/logo/Beyazbüyük150.png" alt="VRE"></a>
+        <ul>
+            <li class="has-submenu"><a href="index.html">Anasayfa</a>
+               
+            </li>
+            <li class="has-submenu"><a href="hakkımızda.html">Hakkımızda</a>
+                
+            </li>
+            <li class="has-submenu"><a href="nasilkullanilir.html">Nasıl Kullanılır</a>
+                
+            </li>
+            <li class="has-submenu"><a href="sıksorulansorular.html">Sık Sorulan Sorular</a>
+            
+            </li>
+            <li class="has-submenu"><a href="bilgilendirmeler.html">Bilgilendirmeler</a>
+                <ul class="submenu-wrapper">
+                    <li><a href="kullanicilaricin.html" class="font-size-1-18">Kullanıcılar için</a></li>
+                    <li><a href="kuluplericin.html" class="font-size-1-18">Kulüpler için</a></li>
+                </ul>
+            </li>
+            <li class="has-submenu"><a href="contact.html">İletişim</a>
+            </li>
+        </ul>
+        <!-- <div class="search-form">
+            <form action="#">
+                <input type="text" placeholder="Search...">
+                <button type="submit" class="border-0">Go</button>
+            </form>
+        </div> -->
+        <div class="phone-number-mobile-menu">
+            <a href="#">+8 (123) 985 789</a>
+        </div>
+        <div class="mobile-menu-copy-right-text">
+            <p><span>© 2024</span> ELSE Dijital</p>
+        </div>
+    </div>
+
+    <!-- Start Bread Crumb Area Home 1 -->
+    <section class="bread-crumb-area" style="background-image: url('assets/images/banner/breadcrumb-bg.png');">
+        <div class="container">
+            <div class="bread-crumb-title">
+                <h2 class="split-collab">Bilgilendirmeler</h2>
+            </div>
+            <div class="bread-crumb-wrapper">
+                <a href="index.html">Anasayfa</a>
+                <span>
+                    <svg width="10" height="14" viewBox="0 0 10 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M8.90625 7.53125L2.84375 13.625C2.53125 13.9062 2.0625 13.9062 1.78125 13.625L1.0625 12.9062C0.78125 12.625 0.78125 12.1562 1.0625 11.8438L5.875 7L1.0625 2.1875C0.78125 1.875 0.78125 1.40625 1.0625 1.125L1.78125 0.40625C2.0625 0.125 2.53125 0.125 2.84375 0.40625L8.90625 6.5C9.1875 6.78125 9.1875 7.25 8.90625 7.53125Z"
+                            fill="white" />
+                    </svg>
+                </span>
+                <a href="#" class="current-page">Bilgilendirmeler</a>
+            </div>
+        </div>
+    </section>
+    <!-- End Bread Crumb Area Home 1 -->
+
+    <!-- Start Blog Details Area -->
+    <section class="blog-details-area">
+        <img src="assets/images/shep/bg-blur-shep-1.png" alt="VRE" class="blog-details-area-shep-1 blur-1">
+        <img src="assets/images/shep/bg-blur-shep-1.png" alt="VRE" class="blog-details-area-shep-2 blur-1">
+        <img src="assets/images/shep/bg-blur-shep-1.png" alt="VRE" class="blog-details-area-shep-3 blur-1">
+        <img src="assets/images/shep/bg-blur-shep-1.png" alt="VRE" class="blog-details-area-shep-4 blur-1">
+        <img src="assets/images/shep/bg-blur-shep-1.png" alt="VRE" class="blog-details-area-shep-5 blur-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12">
+                    <div class="blog-details-inner">
+                        <!-- <div class="blog-details-banner vre-reveal-one">
+                            <img src="assets/images/blog-details/blog-details-banner-1.png" alt="VRE"
+                                class="vre-reveal-image-one">
+                        </div> -->
+                        <h4 class="font-size-1-35 split-collab text-center" style="color: #ff0000;">Kullacılar & Kulüpler için kolay kullanım</h4> <br><br>
+                        <p style="margin: 0 auto; padding-left: 100px; padding-right: 100px; text-align: justify;" class="responsive-text">
+                            Jollin, şehirdeki etkinlikleri, konserleri, festivalleri ve turları bir araya getiren kapsamlı bir platformdur. Kullanıcılar, şehirdeki sosyal aktiviteleri kolayca keşfedebilir, bilet satın alabilir ve etkinliklere katılabilir. Aynı zamanda kulüpler ve organizatörler için de etkinlik oluşturma ve yönetme imkanı sunar. Hem katılımcılar hem de yöneticiler için pratik ve kullanıcı dostu bir deneyim sunan Jollin, şehirdeki etkinliklerin nabzını tutmak isteyenler için ideal bir platformdur.
+                        </p> <br><br>
+                        
+                        <style>
+                       @media (max-width: 768px) {
+    .responsive-text {
+        max-width: 100% !important;   /* Öncelikli olarak tam genişlik */
+        padding-left: 20px !important;  /* Sol boşluk küçültüldü */
+        padding-right: 20px !important; /* Sağ boşluk küçültüldü */
+    }
+}
+
+/* Telefonlar için */
+@media (max-width: 480px) {
+    .responsive-text {
+        max-width: 100% !important;   /* Öncelikli olarak tam genişlik */
+        padding-left: 10px !important;  /* Telefonlar için sol boşluk */
+        padding-right: 10px !important; /* Telefonlar için sağ boşluk */
+    }
+}
+                        </style>
+                        
+                                                
+                        <div class="blog-details-post-wrapper">
+                            <div class="blog-details-post-1">
+                                <div class="blog-details-post-1-banner vre-reveal-one">
+                                    <img src="assets/images/blog-details/blog-details-post-1.png" alt="VRE"
+                                        class="vre-reveal-image-one">
+                                </div>&nbsp;&nbsp;
+                                <ul>
+                                    <li>
+                                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_1_12477)">
+                                                <path
+                                                    d="M24.2867 3.41785C23.919 3.04945 23.3222 3.04881 22.9545 3.41629L11.6511 14.6898L7.57286 10.2605C7.22047 9.87796 6.62467 9.85316 6.24152 10.2055C5.85865 10.5579 5.83414 11.154 6.18654 11.5368L10.929 16.6873C11.1027 16.8761 11.3458 16.9857 11.6021 16.991C11.6089 16.9913 11.6156 16.9913 11.6222 16.9913C11.8713 16.9913 12.1109 16.8924 12.2874 16.7165L24.2849 4.75042C24.6536 4.38299 24.6542 3.78626 24.2867 3.41785Z"
+                                                    fill="#CCDEFF" />
+                                                <path
+                                                    d="M24.0578 11.5578C23.5374 11.5578 23.1156 11.9795 23.1156 12.5C23.1156 18.3537 18.3537 23.1156 12.5 23.1156C6.64668 23.1156 1.88442 18.3537 1.88442 12.5C1.88442 6.64668 6.64668 1.88442 12.5 1.88442C13.0204 1.88442 13.4422 1.46265 13.4422 0.942236C13.4422 0.421777 13.0204 0 12.5 0C5.60742 0 0 5.60742 0 12.5C0 19.3923 5.60742 25 12.5 25C19.3923 25 25 19.3923 25 12.5C25 11.9796 24.5782 11.5578 24.0578 11.5578Z"
+                                                    fill="#CCDEFF" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_1_124771">
+                                                    <rect width="25" height="25" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                        <span class="font-size-1-18">Kullanıcı girişi</span>
+                                    </li>
+                                    <li>
+                                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_1_12477)">
+                                                <path
+                                                    d="M24.2867 3.41785C23.919 3.04945 23.3222 3.04881 22.9545 3.41629L11.6511 14.6898L7.57286 10.2605C7.22047 9.87796 6.62467 9.85316 6.24152 10.2055C5.85865 10.5579 5.83414 11.154 6.18654 11.5368L10.929 16.6873C11.1027 16.8761 11.3458 16.9857 11.6021 16.991C11.6089 16.9913 11.6156 16.9913 11.6222 16.9913C11.8713 16.9913 12.1109 16.8924 12.2874 16.7165L24.2849 4.75042C24.6536 4.38299 24.6542 3.78626 24.2867 3.41785Z"
+                                                    fill="#CCDEFF" />
+                                                <path
+                                                    d="M24.0578 11.5578C23.5374 11.5578 23.1156 11.9795 23.1156 12.5C23.1156 18.3537 18.3537 23.1156 12.5 23.1156C6.64668 23.1156 1.88442 18.3537 1.88442 12.5C1.88442 6.64668 6.64668 1.88442 12.5 1.88442C13.0204 1.88442 13.4422 1.46265 13.4422 0.942236C13.4422 0.421777 13.0204 0 12.5 0C5.60742 0 0 5.60742 0 12.5C0 19.3923 5.60742 25 12.5 25C19.3923 25 25 19.3923 25 12.5C25 11.9796 24.5782 11.5578 24.0578 11.5578Z"
+                                                    fill="#CCDEFF" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_1_124772">
+                                                    <rect width="25" height="25" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                        <span class="font-size-1-18">Kulüp girişi</span>
+                                    </li>
+                                    <li>
+                                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_1_12477)">
+                                                <path
+                                                    d="M24.2867 3.41785C23.919 3.04945 23.3222 3.04881 22.9545 3.41629L11.6511 14.6898L7.57286 10.2605C7.22047 9.87796 6.62467 9.85316 6.24152 10.2055C5.85865 10.5579 5.83414 11.154 6.18654 11.5368L10.929 16.6873C11.1027 16.8761 11.3458 16.9857 11.6021 16.991C11.6089 16.9913 11.6156 16.9913 11.6222 16.9913C11.8713 16.9913 12.1109 16.8924 12.2874 16.7165L24.2849 4.75042C24.6536 4.38299 24.6542 3.78626 24.2867 3.41785Z"
+                                                    fill="#CCDEFF" />
+                                                <path
+                                                    d="M24.0578 11.5578C23.5374 11.5578 23.1156 11.9795 23.1156 12.5C23.1156 18.3537 18.3537 23.1156 12.5 23.1156C6.64668 23.1156 1.88442 18.3537 1.88442 12.5C1.88442 6.64668 6.64668 1.88442 12.5 1.88442C13.0204 1.88442 13.4422 1.46265 13.4422 0.942236C13.4422 0.421777 13.0204 0 12.5 0C5.60742 0 0 5.60742 0 12.5C0 19.3923 5.60742 25 12.5 25C19.3923 25 25 19.3923 25 12.5C25 11.9796 24.5782 11.5578 24.0578 11.5578Z"
+                                                    fill="#CCDEFF" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_1_124773">
+                                                    <rect width="25" height="25" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                        <span class="font-size-1-18">Etkinlik Oluşturma</span>
+                                    </li>
+                                    <li>
+                                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_1_12477)">
+                                                <path
+                                                    d="M24.2867 3.41785C23.919 3.04945 23.3222 3.04881 22.9545 3.41629L11.6511 14.6898L7.57286 10.2605C7.22047 9.87796 6.62467 9.85316 6.24152 10.2055C5.85865 10.5579 5.83414 11.154 6.18654 11.5368L10.929 16.6873C11.1027 16.8761 11.3458 16.9857 11.6021 16.991C11.6089 16.9913 11.6156 16.9913 11.6222 16.9913C11.8713 16.9913 12.1109 16.8924 12.2874 16.7165L24.2849 4.75042C24.6536 4.38299 24.6542 3.78626 24.2867 3.41785Z"
+                                                    fill="#CCDEFF" />
+                                                <path
+                                                    d="M24.0578 11.5578C23.5374 11.5578 23.1156 11.9795 23.1156 12.5C23.1156 18.3537 18.3537 23.1156 12.5 23.1156C6.64668 23.1156 1.88442 18.3537 1.88442 12.5C1.88442 6.64668 6.64668 1.88442 12.5 1.88442C13.0204 1.88442 13.4422 1.46265 13.4422 0.942236C13.4422 0.421777 13.0204 0 12.5 0C5.60742 0 0 5.60742 0 12.5C0 19.3923 5.60742 25 12.5 25C19.3923 25 25 19.3923 25 12.5C25 11.9796 24.5782 11.5578 24.0578 11.5578Z"
+                                                    fill="#CCDEFF" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_1_124774">
+                                                    <rect width="25" height="25" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                        <span class="font-size-1-18">Bilet Takibi</span>
+                                    </li>
+                                    <li>
+                                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_1_12477)">
+                                                <path
+                                                    d="M24.2867 3.41785C23.919 3.04945 23.3222 3.04881 22.9545 3.41629L11.6511 14.6898L7.57286 10.2605C7.22047 9.87796 6.62467 9.85316 6.24152 10.2055C5.85865 10.5579 5.83414 11.154 6.18654 11.5368L10.929 16.6873C11.1027 16.8761 11.3458 16.9857 11.6021 16.991C11.6089 16.9913 11.6156 16.9913 11.6222 16.9913C11.8713 16.9913 12.1109 16.8924 12.2874 16.7165L24.2849 4.75042C24.6536 4.38299 24.6542 3.78626 24.2867 3.41785Z"
+                                                    fill="#CCDEFF" />
+                                                <path
+                                                    d="M24.0578 11.5578C23.5374 11.5578 23.1156 11.9795 23.1156 12.5C23.1156 18.3537 18.3537 23.1156 12.5 23.1156C6.64668 23.1156 1.88442 18.3537 1.88442 12.5C1.88442 6.64668 6.64668 1.88442 12.5 1.88442C13.0204 1.88442 13.4422 1.46265 13.4422 0.942236C13.4422 0.421777 13.0204 0 12.5 0C5.60742 0 0 5.60742 0 12.5C0 19.3923 5.60742 25 12.5 25C19.3923 25 25 19.3923 25 12.5C25 11.9796 24.5782 11.5578 24.0578 11.5578Z"
+                                                    fill="#CCDEFF" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_1_124775">
+                                                    <rect width="25" height="25" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                        <span class="font-size-1-18">Yakındaki Etkinliklere Erişim</span>
+                                    </li>
+                                    <li>
+                                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_1_12477)">
+                                                <path
+                                                    d="M24.2867 3.41785C23.919 3.04945 23.3222 3.04881 22.9545 3.41629L11.6511 14.6898L7.57286 10.2605C7.22047 9.87796 6.62467 9.85316 6.24152 10.2055C5.85865 10.5579 5.83414 11.154 6.18654 11.5368L10.929 16.6873C11.1027 16.8761 11.3458 16.9857 11.6021 16.991C11.6089 16.9913 11.6156 16.9913 11.6222 16.9913C11.8713 16.9913 12.1109 16.8924 12.2874 16.7165L24.2849 4.75042C24.6536 4.38299 24.6542 3.78626 24.2867 3.41785Z"
+                                                    fill="#CCDEFF" />
+                                                <path
+                                                    d="M24.0578 11.5578C23.5374 11.5578 23.1156 11.9795 23.1156 12.5C23.1156 18.3537 18.3537 23.1156 12.5 23.1156C6.64668 23.1156 1.88442 18.3537 1.88442 12.5C1.88442 6.64668 6.64668 1.88442 12.5 1.88442C13.0204 1.88442 13.4422 1.46265 13.4422 0.942236C13.4422 0.421777 13.0204 0 12.5 0C5.60742 0 0 5.60742 0 12.5C0 19.3923 5.60742 25 12.5 25C19.3923 25 25 19.3923 25 12.5C25 11.9796 24.5782 11.5578 24.0578 11.5578Z"
+                                                    fill="#CCDEFF" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_1_124776">
+                                                    <rect width="25" height="25" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                        <span class="font-size-1-18">QR Kod ile Kolay Giriş</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <br><br><h5 class="font-size-1-30 split-collab text-center" style="color: #ff0000;">Kullacılar için Bilgilendirmeler</h5>
+                            <br><br> <p class="font-size-1-16 responsive-text" style="margin: 0 auto; padding-left: 100px; padding-right: 100px; text-align: justify;">Jollin, kullanıcılara şehirdeki tüm etkinlikleri, konserleri, festivalleri ve turları listeleyen bir uygulamadır. Geçmiş etkinlikler hakkında bilgi ve kullanıcı yorumlarını sunarken, gelecekteki etkinliklere katılmak için kayıt ve bilet satın alma imkanı sağlar. Kullanıcılar, bilet aldıktan sonra oluşturulan QR kod ile etkinliğe kolayca giriş yapabilirler. Jollin, hem kullanıcıların şehrin nabzını tutmasına hem de sosyal aktiviteleri kaçırmamasına yardımcı olur, etkinlik sonrası değerlendirmelerle de kullanıcılara faydalı geri bildirimler sunar.</p>
+                        </div>
+                        <div class="blog-details-post-2">
+                            <div class="blog-details-post-2-inner">
+                                <div class="blog-details-post-left vre-reveal-one">
+                                    <img src="assets/images/blog-details/blog-details-post-2.png" alt="VRE"
+                                        class="vre-reveal-image-one">
+                                </div>
+                                <div class="blog-details-post-right vre-reveal-one">
+                                    <img src="assets/images/blog-details/blog-details-post-3.png" alt="VRE"
+                                        class="vre-reveal-image-one">
+                                </div>
+                            </div>
+                            <br><br>
+                            <h5 class="font-size-1-30 split-collab text-center" style="color: #ff0000;">Kulüpler için Bilgilendirmeler
+                            </h5>
+                            <br><br>
+                            <p class="font-size-1-16 responsive-text" style="margin: 0 auto; padding-left: 100px; padding-right: 100px; text-align: justify;">Jollin, kulüplerin etkinliklerini yönetmeleri için de kullanışlı bir platform sunar. Kulüp oluşturmak isteyen kişiler, kayıt olduktan sonra detaylı bilgileri girerek kulüplerini oluşturabilirler. Etkinlikler, isteğe bağlı olarak private (özel) veya public (genel) olarak ayarlanabilir. Kullanıcılar, bir kulübe üye olduklarında, kulübü oluşturan kişi bu üyeleri görebilir ve takip edebilir. Ayrıca, kullanıcılar etkinlik biletiyle giriş yaptığında, etkinlik yöneticisi bu durumu anlık olarak izleyebilir ve kullanıcıların bilgilerine erişerek etkinlik yönetimini daha verimli hale getirebilir.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- End Blog Details Area  -->
+   
+
+    <section class="footer-area-home-3" style="color: #000;">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="row justify-content-between">
+                    <div class="col-xl-4 col-lg-4 col-md-7 col-sm-12">
+                        <div class="footer-item-1">
+                            <a href="index.html">
+                                <img src="assets/images/logo//Beyazbüyük150.png" alt="VRE">
+                            </a>
+                            <p class="font-size-1-16">Şehrindeki etkinliklerden ilk sen haberdar ol</p>
+                            <span class="font-size-1-16">
+                                <svg width="22" height="24" viewBox="0 0 22 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_1_18420)">
+                                        <path
+                                            d="M11.3639 0.303711C6.97093 0.303711 3.39844 4.17202 3.39844 8.92871C3.39844 14.9073 10.5886 22.7618 10.8939 23.0938C11.024 23.2333 11.1939 23.3037 11.3639 23.3037C11.5338 23.3037 11.7037 23.2333 11.8338 23.0938C12.1392 22.7618 19.3293 14.9073 19.3293 8.92871C19.3293 4.17202 15.7568 0.303711 11.3639 0.303711ZM11.3639 21.5456C9.77874 19.7085 4.72601 13.4956 4.72601 8.92871C4.72601 4.96552 7.70375 1.74121 11.3639 1.74121C15.024 1.74121 18.0017 4.96552 18.0017 8.92871C18.0017 13.4913 12.949 19.7085 11.3639 21.5456Z"
+                                            fill="#FF4A3B" />
+                                        <path
+                                            d="M11.3636 4.61621C9.16777 4.61621 7.38086 6.55109 7.38086 8.92871C7.38086 11.3063 9.16777 13.2412 11.3636 13.2412C13.5594 13.2412 15.3463 11.3063 15.3463 8.92871C15.3463 6.55109 13.5594 4.61621 11.3636 4.61621ZM11.3636 11.8037C9.89926 11.8037 8.70843 10.5143 8.70843 8.92871C8.70843 7.34315 9.89926 6.05371 11.3636 6.05371C12.8279 6.05371 14.0187 7.34315 14.0187 8.92871C14.0187 10.5143 12.8279 11.8037 11.3636 11.8037Z"
+                                            fill="#FF4A3B" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_1_18420">
+                                            <rect width="21.2411" height="23" fill="white"
+                                                transform="translate(0 0.303711)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                86 Road Broklyn Street, 600 <br> New York, USA
+                            </span>
+                            <span class="font-size-1-16">
+                                <svg width="22" height="23" viewBox="0 0 22 23" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M2.51836 19.939C2.20398 19.9371 1.90296 19.8011 1.68065 19.5604C1.45835 19.3197 1.33272 18.9937 1.33105 18.6533V8.07957C1.33273 7.37449 1.59215 6.6988 2.05259 6.20023C2.51304 5.70166 3.13705 5.42076 3.78821 5.41895H15.3756C16.0279 5.41894 16.6535 5.69904 17.1153 6.19781C17.5771 6.69657 17.8374 7.3733 17.8391 8.07957V15.1265C17.8391 15.8327 17.5804 16.5102 17.1198 17.0102C16.6592 17.5103 16.0342 17.7921 15.3819 17.794H5.71839C5.60863 17.7949 5.50196 17.8334 5.41362 17.904L3.23583 19.6846C3.02818 19.8507 2.77656 19.9399 2.51836 19.939ZM3.78821 6.79395C3.47383 6.79575 3.17281 6.93178 2.9505 7.17249C2.7282 7.4132 2.60257 7.73916 2.6009 8.07957V18.4815L4.65171 16.804C4.96029 16.5558 5.33402 16.4209 5.71839 16.419H15.3756C15.6922 16.419 15.9958 16.2828 16.2196 16.0404C16.4435 15.798 16.5693 15.4692 16.5693 15.1265V8.07957C16.5676 7.73916 16.442 7.4132 16.2197 7.17249C15.9973 6.93178 15.6963 6.79575 15.3819 6.79395H3.78821Z"
+                                        fill="#FF4A3B" />
+                                    <path
+                                        d="M12.0868 12.3555C12.4373 12.3555 12.7214 12.0477 12.7214 11.668C12.7214 11.2883 12.4373 10.9805 12.0868 10.9805C11.7363 10.9805 11.4521 11.2883 11.4521 11.668C11.4521 12.0477 11.7363 12.3555 12.0868 12.3555Z"
+                                        fill="#FF4A3B" />
+                                    <path
+                                        d="M9.6229 12.3555C9.97339 12.3555 10.2575 12.0477 10.2575 11.668C10.2575 11.2883 9.97339 10.9805 9.6229 10.9805C9.27241 10.9805 8.98828 11.2883 8.98828 11.668C8.98828 12.0477 9.27241 12.3555 9.6229 12.3555Z"
+                                        fill="#FF4A3B" />
+                                    <path
+                                        d="M7.08286 12.3555C7.43335 12.3555 7.71747 12.0477 7.71747 11.668C7.71747 11.2883 7.43335 10.9805 7.08286 10.9805C6.73237 10.9805 6.44824 11.2883 6.44824 11.668C6.44824 12.0477 6.73237 12.3555 7.08286 12.3555Z"
+                                        fill="#FF4A3B" />
+                                    <path
+                                        d="M19.7441 12.9814C19.5757 12.9814 19.4142 12.909 19.2951 12.7801C19.176 12.6511 19.1091 12.4763 19.1091 12.2939V5.32957C19.1075 4.98916 18.9818 4.6632 18.7595 4.42249C18.5372 4.18178 18.2362 4.04575 17.9218 4.04395H5.14078C4.97239 4.04395 4.8109 3.97151 4.69182 3.84258C4.57275 3.71365 4.50586 3.53878 4.50586 3.35645C4.50586 3.17411 4.57275 2.99924 4.69182 2.87031C4.8109 2.74138 4.97239 2.66895 5.14078 2.66895H17.9218C18.573 2.67076 19.197 2.95166 19.6574 3.45023C20.1179 3.9488 20.3773 4.62449 20.379 5.32957V12.2939C20.379 12.4763 20.3121 12.6511 20.193 12.7801C20.0739 12.909 19.9124 12.9814 19.7441 12.9814Z"
+                                        fill="#FF4A3B" />
+                                </svg>
+                                needhelp@company.com <br>
+                                +92 666 888 0000
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-5 col-sm-6">
+                        <div class="footer-menu footer-menu-1">
+                            <h6 class="font-size-1-22">Services Req</h6>
+                            <ul>
+                                <li><a href="#">Property on sale</a></li>
+                                <li><a href="#">About Real estate</a></li>
+                                <li><a href="#">Team membar</a></li>
+                                <li><a href="#">Terms of use</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-5 col-sm-6">
+                        <div class="footer-menu footer-menu-2">
+                            <h6 class="font-size-1-22">Contact Info</h6>
+                            <ul>
+                                <li><a href="#">Services Details</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Services Details</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Home Buying</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-7 col-sm-12">
+                        <div class="footer-news-letter">
+                            <h6 class="font-size-1-22">newsletter</h6>
+                            <div class="footer-form">
+                                <form action="#">
+                                    <span class="font-size-1-15">Enter Your Email</span>
+                                    <input type="text">
+                                </form>
+                                <div class="footer-check">
+                                    <svg width="22" height="24" viewBox="0 0 22 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M21.0589 11.8037C21.0589 17.9173 16.4932 22.8037 10.9435 22.8037C5.39387 22.8037 0.828125 17.9173 0.828125 11.8037C0.828125 5.69014 5.39387 0.803711 10.9435 0.803711C16.4932 0.803711 21.0589 5.69014 21.0589 11.8037Z"
+                                            stroke="#4E545F" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M15.8345 8.79093C16.0638 9.00828 16.0846 9.38693 15.8807 9.63215L10.1395 16.5355C9.93452 16.782 9.58252 16.7977 9.35953 16.5703L6.03733 13.1821C5.83015 12.9708 5.81032 12.6187 5.98807 12.378C6.18421 12.1124 6.54947 12.0758 6.78291 12.3033L9.36049 14.815C9.58449 15.0332 9.92936 15.0137 10.1312 14.7714L15.0694 8.83986C15.2692 8.59983 15.61 8.57808 15.8345 8.79093Z"
+                                            fill="#CCDEFF" />
+                                    </svg>
+                                    <span class="font-size-1-15">I agree to all your terms and policies</span>
+                                </div>
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         
+            <div class="footer-copyright">
+                <div class="footer-copyright-item-1">
+                    <p class="font-size-1-18"><span>© 2024 </span> ELSE Dijital</p>
+                </div>
+                <div class="footer-copyright-social-icon">
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-vimeo-v"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer-privecy-policy">
+                    <a href="#" class="font-size-1-18">Terms of Use</a>
+                    <span class="font-size-1-18">|</span>
+                    <a href="#" class="font-size-1-18">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--Esential Js Files-->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/scrolltigger.js"></script>
+    <script src="assets/js/split-text.js"></script>
+    <script src="assets/js/split-type.js"></script>
+    <script src="assets/js/magnific-popup.js"></script>
+    <script src="assets/js/waypoints.js"></script>
+    <script src="assets/js/swiper.js"></script>
+    <script src="assets/js/isotop.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
