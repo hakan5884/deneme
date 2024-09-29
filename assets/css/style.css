@@ -56,11 +56,12 @@ h2,
 h3,
 h4,
 h5,
-h5,
+h6,
 p,
 a {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+color: #CCDEFF; }
 
 .font-size-1-18 {
   font-size: 18px;
@@ -91,7 +92,7 @@ a {
   font-weight: 400;
   line-height: normal;
   font-family: "Jost", sans-serif;
-  color: #000000; }
+  color:#CCDEFF; }
 
 .font-size-1-24 {
   font-size: 24px; }
