@@ -422,7 +422,9 @@ color: #CCDEFF; }
       @media (max-width: 767px) {
         .title .main-title h3 span {
           bottom: -5px; } }
-
+.detay{
+  margin-top: 500px;
+}
 .blur-1 {
   fill: rgba(204, 255, 0, 0.45);
   -webkit-filter: blur(165.5px);
